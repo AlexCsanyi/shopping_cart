@@ -1,0 +1,124 @@
+.main-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.product-listing {
+  list-style: none;
+  padding: 0;
+}
+
+.product-listing--item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.product-listing--item-description-container {
+  margin-left: 30px;
+  width: 350px;
+  text-align: right;
+  flex-wrap: wrap;
+}
+
+.product-listing--item-detail-container {
+  display: flex;
+}
+
+.product-listing--item-img {
+  height: 150px;
+}
+
+.product-listing--item-title {
+  margin: 0;
+  padding: 0;
+}
+
+.product-listing--item-price {
+  text-align: right;
+}
+
+.product-listing--qty-ctrl-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.product-listing--qty-ctrl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-listing--qty {
+  position: relative;
+}
+
+.product-listing--qty-ctrl-qty {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  transition: all 0.6s ease-in-out;
+}
+
+.product-listing--qty-icon {
+  color: #f7d8e8;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.product-listing--qty-icon:hover {
+  color: #e75480;
+  transform: scale(1.2);
+}
+
+.product-listing--qty-ctrl-remove {
+  margin: 0;
+  position: absolute;
+  font-size: 10px;
+  bottom: -18px;
+  left: -10px;
+  padding: 3px;
+  cursor: pointer;
+  border: solid #000 1px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-listing--qty-ctrl-remove:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+@media only screen and (max-width: 750px) {
+  .main-container {
+    width: 95%;
+  }
+
+  .product-listing--item {
+    flex-direction: column;
+    margin-bottom: 50px;
+    border-top: solid 1px #f7d8e8;
+    padding-top: 5px;
+  }
+
+  .product-listing--item-description-container {
+    width: auto;
+  }
+  .product-listing--item-description-container {
+    margin-right: 20px;
+  }
+  .product-listing--qty-ctrl-container {
+    width: 95%;
+  }
+  .product-listing--qty-ctrl {
+    align-self: flex-end;
+  }
+}
