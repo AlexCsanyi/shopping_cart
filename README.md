@@ -27,6 +27,8 @@ Just a small utility function to handle the display of the prices and total
 # Please let me know any feedback and if you have any questions feel free to contact me anytime
 #### Thank you :+1:
 
+
+##
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
