@@ -17,6 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "http://alexcsanyi.github.io/shopping_cart",
   "eslintConfig": {
     "extends": "react-app"
   },
