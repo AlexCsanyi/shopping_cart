@@ -1,4 +1,4 @@
-You can interact with the site on: [PLT Shopping Cart](https://alexcsanyi.github.io/shopping_cart/)
+You can visit the working prototype site on: [PLT Shopping Cart](https://alexcsanyi.github.io/shopping_cart/)
 
 ## App.js
 #### Event Handlers:
