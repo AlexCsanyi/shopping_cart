@@ -2,10 +2,10 @@ You can visit the working prototype site on: [PLT Shopping Cart](https://alexcsa
 
 ## App.js
 #### Event Handlers:
-`handleChangeColour`: sort items by colour
-`handleAddToCart`: adds items to cart and increases quantity, if a type of item is already in the basket only the quantity of that item changes, it sotres it in localStorage so after refresh the data persits
-`handleRemoveFromCart`: decreases the quantity and once we reach 0 it removes this type of item from the cart, updates state and localStorage
-`handleDeleteFromCart`: deletes item entirely from cart regardless of quantity and returns count to 0, updates localStorage
+- `handleChangeColour`: sort items by colour
+- `handleAddToCart`: adds items to cart and increases quantity, if a type of item is already in the basket only the quantity of that item changes, it sotres it in localStorage so after refresh the data persits
+- `handleRemoveFromCart`: decreases the quantity and once we reach 0 it removes this type of item from the cart, updates state and localStorage
+- `handleDeleteFromCart`: deletes item entirely from cart regardless of quantity and returns count to 0, updates localStorage
 
 ## Listings.js
 Lists items, img, name, price and quantity in basket
