@@ -34,7 +34,10 @@ export default class Basket extends Component {
             ) : (
               <span>
                 You have {cartItems.length}{" "}
-                {cartItems.length === 1 ? "product" : "products"} in your basket
+                {cartItems.length === 1
+                  ? "type of product"
+                  : "different types of products"}{" "}
+                in your basket
               </span>
             )}
           </p>
