@@ -1,3 +1,34 @@
+You can visit the working prototype site on: [PLT Shopping Cart](https://alexcsanyi.github.io/shopping_cart/)
+
+## App.js
+#### Event Handlers:
+- `handleChangeColour`: sort items by colour
+- `handleAddToCart`: adds items to cart and increases quantity, if a type of item is already in the basket only the quantity of that item changes, it sotres it in localStorage so after refresh the data persits
+- `handleRemoveFromCart`: decreases the quantity and once we reach 0 it removes this type of item from the cart, updates state and localStorage
+- `handleDeleteFromCart`: deletes item entirely from cart regardless of quantity and returns count to 0, updates localStorage
+
+## Listings.js
+Lists items, img, name, price and quantity in basket
+
+## Filter.js
+Responsible for filtering takes in `handleChangecolour` as a prop
+
+## Basket.js
+Responsible for showing how many types of items we have in the basket and what the total is (I would list the names and quantity of each of the items here).
+Displayes the total amount.
+If there is an item in the basket a check-out button is available -> takes the user to the check-out popup window
+
+## Popup.js
+Just a thank you popup window that is visible when the checkout button is clicked and allows the user to return
+
+## utils/currency.js
+Just a small utility function to handle the display of the prices and total
+
+# Please let me know any feedback and if you have any questions feel free to contact me anytime
+#### Thank you :+1:
+
+
+##
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
