@@ -108,7 +108,7 @@ export default class App extends Component {
     if (!isLoaded) {
       return (
         <div className="loading">
-          <h1>PrettyLittleThings</h1>
+          <h1>PrettyLittleThing</h1>
         </div>
       );
     } else {
